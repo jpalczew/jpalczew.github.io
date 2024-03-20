@@ -1,0 +1,138 @@
+/************* GENERAL CSS ************/
+
+body {
+	margin: 0px;
+	padding: 0px;
+	text-align: justify;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+	color: #333333;
+}
+
+table {
+	border: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #333333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Arial, Helvetica, sans-serif, Georgia, "Times New Roman", Times;
+	font-weight: normal;
+	color: #0000FF;
+	padding-top: 15px;
+}
+
+h1 {
+	text-align: center;
+}
+
+a {
+	font-weight: bold;	
+	text-decoration: none;
+	color: #33CCFF;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #33CCFF;
+}
+
+#sparselist li {
+	padding-top: 5px;
+}
+
+
+/************* MENU ************/
+
+#menu {
+        margin: 10px;
+	background-color: #111111;
+	color: #FFFFFF;
+	padding: 0px 0px 5px 0px;
+}
+
+#menu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-align: center;
+	color: #1111FF;
+}
+
+#menu li {
+	padding: 10px 0px 5px 0px;
+	line-height: 1;
+}
+
+#menu a {
+	padding: 0px 0px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+	color: #5555FF;
+}
+
+#menu a:hover {
+	color: #FF0000;
+}
+
+/************* CONTENT ************/
+
+#content {
+	margin: 10px;
+	margin-right: 20px;
+	padding: 0px 0px 0px 0px;
+}
+
+
+#content h2, #content h3, #content h4, #content h5, #content h6 {
+	font-weight: normal;
+	padding-top: 10px;
+}
+
+#content p, #content ul, #content ol, #content table {
+	line-height: 150%;
+}
+
+#content-hide {
+/*    height: 3.2em; 
+    padding: 2px;
+    overflow: hidden;
+    cursor: pointer 
+ */   
+}
+
+/*
+#content-hide:hover {
+	overflow: show;
+	height: auto;
+	cursor: auto
+}
+*/
+
+/************* LEFT PANEL *********/
+
+#myname {
+    padding-bottom: 15px; 
+    padding-top: 15px;
+    text-align: center;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+/************* FOOTER ************/
+
+#footer {
+	clear: both;
+	width: 771px;
+	margin: 0px auto;
+	border-top: 1px solid #666666;
+	background: url(images/back-footer.png) repeat-y center top;
+	font-size: 9px;
+	text-align: center;
+	padding: 2px;
+	color: #333333;
+}
+
